@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+#wrapper {width:1250px; background-color:antiquewhite; margin-left:auto; margin-right:auto;}
+
+h1 {font-size:55px; font-weight:bold; font-family: 'Helvetica', sans-serif; margin-top: 60px; padding-top:50px; text-align: center;}
+
+p {font-family: 'Nanum Myeongjo', serif; text-align: left; float: right; padding: 30px;}
+
+.column1{float: left; width: 30%; padding-left: 150px;}
+/*.column2{float: left; width: 30%; padding: 5px; padding-left: 30px;}*/
+.row:after{content: ""; clear: both; display: table;}
+
+.grid-container{display: grid; grid-template-columns: auto auto auto; padding: 10px;}
+.grid-item{padding: 20px;}
+
+form {width:40%;margin:0 auto;overflow:hidden;font-family:'Helvetica',sans-serif; padding: 30px; text-align: center;}
+
+input,textarea {padding: 0.5em 0.6em; border: 1px solid #ccc; border-radius: 4px;margin: 0.25em 0; padding-bottom: 10px;}
+
+label {margin: 0.25em 0;}
+
+fieldset {border:0;}
+
+.submit {background-color:#80915a;width:200px;padding:10px;border:0;font-size:1em;}
+
+.submit:hover {background-color:#d5e3a9;}
